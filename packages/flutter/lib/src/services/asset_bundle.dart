@@ -38,7 +38,7 @@ import 'binary_messenger.dart';
 /// obtaining the [AssetBundle] for the current [BuildContext] using
 /// [DefaultAssetBundle.of]. This layer of indirection lets ancestor widgets
 /// substitute a different [AssetBundle] (e.g., for testing or localization) at
-/// runtime rather than directly replying upon the [rootBundle] created at build
+/// runtime rather than directly relying upon the [rootBundle] created at build
 /// time. For convenience, the [WidgetsApp] or [MaterialApp] widget at the top
 /// of the widget hierarchy configures the [DefaultAssetBundle] to be the
 /// [rootBundle].
@@ -248,7 +248,7 @@ AssetBundle _initRootBundle() {
 /// [AssetBundle] for the current [BuildContext] using [DefaultAssetBundle.of].
 /// This layer of indirection lets ancestor widgets substitute a different
 /// [AssetBundle] at runtime (e.g., for testing or localization) rather than
-/// directly replying upon the [rootBundle] created at build time. For
+/// directly relying upon the [rootBundle] created at build time. For
 /// convenience, the [WidgetsApp] or [MaterialApp] widget at the top of the
 /// widget hierarchy configures the [DefaultAssetBundle] to be the [rootBundle].
 ///
